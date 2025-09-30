@@ -1,0 +1,35 @@
+{
+  "personeelsgegevens": {
+    "naam": "Piet de Jong",
+    "werktijd": 240,
+    "beroepstype": "Mechanisch Monteur",
+    "bevoegdheid": "Senior",
+    "specialist_in_attracties": ["Mega Spin", "River Rapids", "Twister"],
+    "pauze_opsplitsen": false,
+    "max_fysieke_belasting": 30
+  },
+  "weergegevens": { "temperatuur": 20, "kans_op_regen": 30 },
+  "dagtaken": [
+    {
+      "omschrijving": "Mechanisch onderhoud aan scharnieren",
+      "duur": 45,
+      "prioriteit": "Hoog",
+      "beroepstype": "Mechanisch Monteur",
+      "bevoegdheid": "Senior",
+      "fysieke_belasting": 10,
+      "attractie": "Twister",
+      "is_buitenwerk": true
+    },
+    {
+      "omschrijving": "Kettingspanning inspecteren",
+      "duur": 30,
+      "prioriteit": "Laag",
+      "beroepstype": "Mechanisch Monteur",
+      "bevoegdheid": "Senior",
+      "fysieke_belasting": 15,
+      "attractie": "Mega Spin",
+      "is_buitenwerk": false
+    }
+  ],
+  "totale_duur": 75
+}
